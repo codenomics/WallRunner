@@ -6,14 +6,16 @@
 
 ## Download
 
-**Latest version: v1.1** (Oct 3, 2026)
+**Latest version: v1.2** (Oct 3, 2026)
 
-- [WallRunner_v1.1_no-install.zip](https://github.com/codenomics/WallRunner/releases/download/v1.1/WallRunner_v1.1_no-install.zip) - 44 KB
-- [WallRunner_v1.1_Setup.exe](https://github.com/codenomics/WallRunner/releases/download/v1.1/WallRunner_v1.1_Setup.exe) - 78 KB
+- [WallRunner_v1.2_no-install.zip](https://github.com/codenomics/WallRunner/releases/download/v1.2/WallRunner_v1.2_no-install.zip) - 48 KB
+- [WallRunner_v1.2_Setup.exe](https://github.com/codenomics/WallRunner/releases/download/v1.2/WallRunner_v1.2_Setup.exe) - 81 KB
 
-What's new in v1.1:
+What's new in v1.2:
 
-No notes for this version.
+- WallRunner now checks GitHub for a newer version when it starts and offers to update
+- Update now downloads and runs the new installer for you (installed copies)
+- New tray menu items: Check for updates, and a switch for the startup check
 
 Older versions are on the [Releases page](https://github.com/codenomics/WallRunner/releases).
 
@@ -77,7 +79,7 @@ USING IT
 - Left-click the tray icon for Settings: a picture folder per monitor,
   how often to change, and Start with Windows.
 - Right-click the tray icon for: Crop a picture, Manage pictures,
-  Next wallpaper now, Pause, Open settings folder, Exit.
+  Next wallpaper now, Pause, Check for updates, Open settings folder, Exit.
 - You can also open WallRunner from the Start menu.
 - Crop a picture: pick a monitor, open a picture, drag the frame (it keeps
   that monitor's shape), save.
@@ -90,6 +92,13 @@ GOOD TO KNOW
 ------------
 - Works with portrait monitors and with Windows' virtual desktops.
 - Settings are kept in %APPDATA%\WallpaperRotator\config.json.
+- Updates: a few seconds after it starts, WallRunner checks GitHub for a newer
+  version (it only reads the public release page; nothing is sent). If there
+  is one, a note pops up from the tray icon; click it to update. With the
+  installer, it downloads and runs the new installer for you; with the
+  no-install zip, it opens the download page. "Check for updates..." in the tray
+  menu checks on demand, and "Check for updates at startup" turns the automatic
+  check on or off.
 - If something goes wrong, WallRunner-log.txt next to WallRunner.exe says what.
 - To remove WallRunner: untick "Start with Windows" in Settings, Exit from
   the tray menu, then delete its folder and %APPDATA%\WallpaperRotator.
