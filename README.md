@@ -6,16 +6,15 @@
 
 ## Download
 
-**Latest version: v1.2** (Oct 3, 2026)
+**Latest version: v1.3** (Oct 8, 2026)
 
-- [WallRunner_v1.2_no-install.zip](https://github.com/codenomics/WallRunner/releases/download/v1.2/WallRunner_v1.2_no-install.zip) - 48 KB
-- [WallRunner_v1.2_Setup.exe](https://github.com/codenomics/WallRunner/releases/download/v1.2/WallRunner_v1.2_Setup.exe) - 81 KB
+- [WallRunner_v1.3_no-install.zip](https://github.com/codenomics/WallRunner/releases/download/v1.3/WallRunner_v1.3_no-install.zip) - 48 KB
+- [WallRunner_v1.3_Setup.exe](https://github.com/codenomics/WallRunner/releases/download/v1.3/WallRunner_v1.3_Setup.exe) - 81 KB
+- [WallRunner_v1.3_source.zip](https://github.com/codenomics/WallRunner/releases/download/v1.3/WallRunner_v1.3_source.zip) - 38 KB
 
-What's new in v1.2:
+What's new in v1.3:
 
-- WallRunner now checks GitHub for a newer version when it starts and offers to update
-- Update now downloads and runs the new installer for you (installed copies)
-- New tray menu items: Check for updates, and a switch for the startup check
+- No app changes. The code is now available as a download too
 
 Older versions are on the [Releases page](https://github.com/codenomics/WallRunner/releases).
 
@@ -34,6 +33,10 @@ Older versions are on the [Releases page](https://github.com/codenomics/WallRunn
 3. Open the folder and double-click the app's .exe. Nothing is installed; delete the folder to remove it.
 
 Windows says "Windows protected your PC"? Click More info > Run anyway. It shows that for apps without a paid signing certificate.
+
+## Source code
+
+Want to see how it works, or build it yourself? Download the file ending in `_source.zip` above, extract it and double-click `Build.bat`. It only uses the C# compiler that already comes with Windows, so there is nothing to install.
 
 ## More details
 
